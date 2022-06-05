@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/t11.css">
+</head>
+
+<body>
+    <section id="box">
+        
+        <div class="personal">
+    
+            <h1>Reservation</h1>
+            <div class="name_box">
+                <label for="name">名字</label><br>
+                <input class="number" type="text"><br>
+            </div>
+            
+            <div class="phone_box">
+                <label for="phone">電話</label><br>
+                <input class="phone" type="phone"><br>
+            </div>
+    
+            <div class="day_box">
+                <label for="birthdaytime">日期與時間:</label>
+                <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+            </div>
+            
+            <button class="enter">確認</button>
+        </div>
+    </section>
+
+    <script>
+        var enter = document.querySelector('.enter');
+
+        var input = document.querySelector('.number');
+        var phone = document.querySelector('.phone');
+        var birthdaytime = document.querySelector('#birthdaytime');
+
+
+        enter.addEventListener('click',function () {
+            input.value = '';
+            phone.value = '';
+            birthdaytime.value = '';
+            console.log(input);
+            
+            alert('預約成功');
+            return
+        })
+    </script>
+</body>
+
+</html>

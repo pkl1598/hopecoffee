@@ -1,0 +1,165 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+}
+
+p {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #F6EDDF;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav {
+  z-index: 10000;
+  width: 100%;
+  height: 80px;
+  background-color: #F6EDDF;
+  position: fixed;
+}
+
+nav .container {
+  width: 1280px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 15px;
+}
+
+nav .container .menu_bar {
+  display: none;
+}
+
+nav .container a {
+  height: 80px;
+}
+
+nav .container a .logo {
+  height: 80px;
+  padding: 15px 0;
+}
+
+nav .container .menu_main {
+  height: 100%;
+}
+
+nav .container .menu_main ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav .container .menu_main ul a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+}
+
+nav .container .menu_main ul a li {
+  margin: 0 15px;
+  color: #000;
+}
+
+nav .back_top {
+  width: 80px;
+  height: 80px;
+  background-image: url(../picture/information-picture/回到最上面.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin-top: 675px;
+  margin-left: 1785px;
+}
+
+main #banner {
+  height: 100vh;
+}
+
+main #banner .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+main #banner .swiper .swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+main #banner .swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+main #members_introduction_1 .container .dog_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 171px;
+}
+
+main #members_introduction_1 .container .dog_card .member_picture {
+  width: 100%;
+  margin-right: 110px;
+}
+
+main #members_introduction_1 .container .dog_card .member_introduction_word .member_introduction_title {
+  font-size: 32px;
+  letter-spacing: 5px;
+}
+
+main #members_introduction_1 .container .dog_card .member_introduction_word .member_introduction_main {
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+main #members_introduction_1 .container .decorate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 59px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+main #members_introduction_1 .container .decorate .decorate2 {
+  position: absolute;
+  right: 0px;
+}
+
+footer .Copyright {
+  color: #7B7673;
+  text-align: center;
+  letter-spacing: 5px;
+  padding: 0 20px 33px 0;
+  font-size: 14px;
+}
+/*# sourceMappingURL=members_introduction.css.map */

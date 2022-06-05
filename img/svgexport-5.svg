@@ -1,0 +1,7 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="visual-btn-txt" width="240" height="240" viewBox="0 0 240 240">
+      <path id="VisualBtnTxtCircle" d="M192,120a72,72,0,1,1-72-72A72,72,0,0,1,192,120Z" fill-opacity="0" fill="#000000"></path>
+      <text fill="#101010">
+        <textPath xlink:href="#VisualBtnTxtCircle" class="c-display-pc" fill="#101010">CLICK TO ACTION</textPath>
+        <textPath xlink:href="#VisualBtnTxtCircle" class="c-display-sp" fill="#101010">TAP TO ACTION</textPath>
+      </text>
+    </svg>

@@ -1,0 +1,536 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+}
+
+html *:before,
+html *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  list-style: none;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  margin: 0px;
+}
+
+body {
+  background-image: url(../img/bgimg.png);
+  margin: 0px;
+  padding: 0px;
+  background-repeat: none;
+}
+
+#box {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+#box .personal {
+  width: 500px;
+  height: 670px;
+  background-color: #f5ece7d9;
+  position: absolute;
+  right: 7%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#box .personal h1 {
+  margin: 40px 0 20px 0;
+  text-align-last: center;
+  font-size: 48px;
+}
+
+#box .personal .enter {
+  width: 250px;
+  height: 40px;
+  border: 2px solid #8a8585;
+  border-radius: 10px;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+#box .personal .name_box {
+  width: 400px;
+  height: 140px;
+}
+
+#box .personal .name_box label {
+  font-size: 35px;
+}
+
+#box .personal .name_box input {
+  max-width: 500px;
+  width: 400px;
+  height: 50px;
+  border: 2px solid #8a8585;
+  border-radius: 10px;
+  font-size: 25px;
+  padding: 15px;
+}
+
+#box .personal .phone_box {
+  width: 400px;
+  height: 140px;
+}
+
+#box .personal .phone_box label {
+  font-size: 35px;
+}
+
+#box .personal .phone_box input {
+  max-width: 500px;
+  width: 400px;
+  height: 50px;
+  border: 2px solid #8a8585;
+  border-radius: 10px;
+  font-size: 25px;
+  padding: 15px;
+}
+
+#box .personal .day_box {
+  width: 400px;
+  height: 140px;
+}
+
+#box .personal .day_box label {
+  font-size: 35px;
+  padding-bottom: 15px;
+}
+
+#box .personal .day_box input {
+  max-width: 500px;
+  width: 400px;
+  height: 50px;
+  border: 2px solid #8a8585;
+  border-radius: 10px;
+  font-size: 25px;
+  padding: 15px;
+}
+
+@media (max-width: 850px) {
+  #box .personal {
+    width: 500px;
+    height: 670px;
+    background-color: #f5ece7d9;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #box .personal h1 {
+    margin: 40px 0 20px 0;
+    text-align-last: center;
+    font-size: 48px;
+  }
+  #box .personal .enter {
+    width: 250px;
+    height: 40px;
+    border: 2px solid #8a8585;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  #box .personal .name_box {
+    width: 400px;
+    height: 140px;
+  }
+  #box .personal .name_box label {
+    font-size: 35px;
+  }
+  #box .personal .name_box input {
+    max-width: 500px;
+    width: 400px;
+    height: 50px;
+    border: 2px solid #8a8585;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 15px;
+  }
+  #box .personal .phone_box {
+    width: 400px;
+    height: 140px;
+  }
+  #box .personal .phone_box label {
+    font-size: 35px;
+  }
+  #box .personal .phone_box input {
+    max-width: 500px;
+    width: 400px;
+    height: 50px;
+    border: 2px solid #8a8585;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 15px;
+  }
+  #box .personal .day_box {
+    width: 400px;
+    height: 140px;
+  }
+  #box .personal .day_box label {
+    font-size: 35px;
+  }
+  #box .personal .day_box input {
+    max-width: 500px;
+    width: 400px;
+    height: 50px;
+    border: 2px solid #8a8585;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 725px) {
+  #box .personal {
+    width: 500px;
+    height: 670px;
+    background-color: #f5ece7d9;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #box .personal h1 {
+    margin: 40px 0 20px 0;
+    text-align-last: center;
+    font-size: 48px;
+  }
+  #box .personal .enter {
+    width: 250px;
+    height: 40px;
+    border: 2px solid #8a8585;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  #box .personal .name_box {
+    width: 400px;
+    height: 140px;
+  }
+  #box .personal .name_box label {
+    font-size: 35px;
+  }
+  #box .personal .name_box input {
+    max-width: 500px;
+    width: 400px;
+    height: 50px;
+    border: 2px solid #8a8585;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 15px;
+  }
+  #box .personal .phone_box {
+    width: 400px;
+    height: 140px;
+  }
+  #box .personal .phone_box label {
+    font-size: 35px;
+  }
+  #box .personal .phone_box input {
+    max-width: 500px;
+    width: 400px;
+    height: 50px;
+    border: 2px solid #8a8585;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 15px;
+  }
+  #box .personal .day_box {
+    width: 400px;
+    height: 140px;
+  }
+  #box .personal .day_box label {
+    font-size: 35px;
+  }
+  #box .personal .day_box input {
+    max-width: 500px;
+    width: 400px;
+    height: 50px;
+    border: 2px solid #8a8585;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 585px) {
+  #box .personal {
+    width: 400px;
+    height: 600px;
+    background-color: #f5ece7d9;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #box .personal h1 {
+    margin: 20px 0 20px 0;
+    text-align-last: center;
+    font-size: 48px;
+  }
+  #box .personal .enter {
+    width: 250px;
+    height: 40px;
+    border: 2px solid #8a8585;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  #box .personal .name_box {
+    width: 400px;
+    height: 140px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #box .personal .name_box label {
+    font-size: 35px;
+  }
+  #box .personal .name_box input {
+    max-width: 500px;
+    width: 400px;
+    height: 50px;
+    border: 2px solid #8a8585;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 15px;
+  }
+  #box .personal .name_box .number {
+    width: 350px;
+    margin: 0 auto;
+  }
+  #box .personal .phone_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 400px;
+    height: 140px;
+  }
+  #box .personal .phone_box .phone {
+    width: 350px;
+  }
+  #box .personal .phone_box label {
+    font-size: 35px;
+  }
+  #box .personal .phone_box input {
+    max-width: 500px;
+    width: 400px;
+    height: 50px;
+    border: 2px solid #8a8585;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 15px;
+  }
+  #box .personal .day_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 400px;
+    height: 140px;
+  }
+  #box .personal .day_box #birthdaytime {
+    width: 350px;
+  }
+  #box .personal .day_box label {
+    font-size: 35px;
+  }
+  #box .personal .day_box input {
+    max-width: 500px;
+    width: 400px;
+    height: 50px;
+    border: 2px solid #8a8585;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 420px) {
+  #box .personal {
+    width: 320px;
+    height: 550px;
+    background-color: #f5ece7d9;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #box .personal h1 {
+    margin: 20px 0 20px 0;
+    text-align-last: center;
+    font-size: 38px;
+  }
+  #box .personal .enter {
+    width: 150px;
+    height: 40px;
+    border: 2px solid #8a8585;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  #box .personal .name_box {
+    width: 400px;
+    height: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #box .personal .name_box label {
+    font-size: 25px;
+  }
+  #box .personal .name_box input {
+    max-width: 500px;
+    width: 400px;
+    height: 50px;
+    border: 2px solid #8a8585;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 15px;
+  }
+  #box .personal .name_box .number {
+    width: 250px;
+  }
+  #box .personal .phone_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 400px;
+    height: 120px;
+  }
+  #box .personal .phone_box label {
+    font-size: 25px;
+  }
+  #box .personal .phone_box input {
+    max-width: 500px;
+    width: 400px;
+    height: 50px;
+    border: 2px solid #8a8585;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 15px;
+  }
+  #box .personal .phone_box .phone {
+    width: 250px;
+  }
+  #box .personal .day_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 400px;
+    height: 120px;
+  }
+  #box .personal .day_box label {
+    font-size: 25px;
+  }
+  #box .personal .day_box input {
+    max-width: 500px;
+    width: 400px;
+    height: 50px;
+    border: 2px solid #8a8585;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 15px;
+  }
+  #box .personal .day_box #birthdaytime {
+    width: 250px;
+  }
+}
+/*# sourceMappingURL=t11.css.map */

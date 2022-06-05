@@ -1,0 +1,565 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+
+}
+
+
+
+html {
+
+    // *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+        list-style: none;
+    }
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+p {
+    margin: 0px;
+}
+
+body {
+    background-image: url(../img/bgimg.png);
+    margin: 0px;
+    padding: 0px;
+    // position: relative;
+    background-repeat: none;
+}
+
+// 資料區
+#box {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+    .personal {
+        width: 500px;
+        height: 670px;
+        background-color: #f5ece7d9;
+        // position: absolute;
+        position: absolute;
+        // display: flex;
+        right: 7%;
+        top: 50%;
+        transform: translateY(-50%);
+        // margin: 4rem -5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1 {
+            margin: 40px 0 20px 0;
+            text-align-last: center;
+            font-size: 48px;
+        }
+
+        .enter {
+            width: 250px;
+            height: 40px;
+            border: 2px solid rgb(138, 133, 133);
+            border-radius: 10px;
+            font-size: 25px;
+            margin-top: 20px;
+        }
+
+
+        .name_box {
+            width: 400px;
+            height: 140px;
+
+
+            label {
+                font-size: 35px;
+            }
+
+            input {
+                max-width: 500px;
+                width: 400px;
+                height: 50px;
+                border: 2px solid rgb(138, 133, 133);
+                border-radius: 10px;
+                font-size: 25px;
+                padding: 15px;
+            }
+        }
+
+        .phone_box {
+
+            width: 400px;
+            height: 140px;
+
+
+            label {
+                font-size: 35px;
+            }
+
+            input {
+                max-width: 500px;
+                width: 400px;
+                height: 50px;
+                border: 2px solid rgb(138, 133, 133);
+                border-radius: 10px;
+                font-size: 25px;
+                padding: 15px;
+            }
+        }
+
+        .day_box {
+
+            width: 400px;
+            height: 140px;
+
+
+            label {
+                font-size: 35px;
+                padding-bottom: 15px;
+            }
+
+            input {
+                max-width: 500px;
+                width: 400px;
+                height: 50px;
+                border: 2px solid rgb(138, 133, 133);
+                border-radius: 10px;
+                font-size: 25px;
+                padding: 15px;
+            }
+        }
+    }
+
+}
+
+@media (max-width:850px) {
+    #box {
+
+        .personal {
+            width: 500px;
+            height: 670px;
+            background-color: #f5ece7d9;
+            // position: absolute;
+            position: absolute;
+            // display: flex;
+            right: 10%;
+            top: 50%;
+            // transform: translate(-50%,-50%);
+            // margin: 4rem -5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h1 {
+                margin: 40px 0 20px 0;
+                text-align-last: center;
+                font-size: 48px;
+            }
+
+            .enter {
+                width: 250px;
+                height: 40px;
+                border: 2px solid rgb(138, 133, 133);
+                border-radius: 10px;
+                font-size: 25px;
+                margin-top: 20px;
+            }
+
+
+            .name_box {
+                width: 400px;
+                height: 140px;
+
+
+                label {
+                    font-size: 35px;
+                }
+
+                input {
+                    max-width: 500px;
+                    width: 400px;
+                    height: 50px;
+                    border: 2px solid rgb(138, 133, 133);
+                    border-radius: 10px;
+                    font-size: 25px;
+                    padding: 15px;
+                }
+            }
+
+            .phone_box {
+
+                width: 400px;
+                height: 140px;
+
+
+                label {
+                    font-size: 35px;
+                }
+
+                input {
+                    max-width: 500px;
+                    width: 400px;
+                    height: 50px;
+                    border: 2px solid rgb(138, 133, 133);
+                    border-radius: 10px;
+                    font-size: 25px;
+                    padding: 15px;
+                }
+            }
+
+            .day_box {
+
+                width: 400px;
+                height: 140px;
+
+
+                label {
+                    font-size: 35px;
+                }
+
+                input {
+                    max-width: 500px;
+                    width: 400px;
+                    height: 50px;
+                    border: 2px solid rgb(138, 133, 133);
+                    border-radius: 10px;
+                    font-size: 25px;
+                    padding: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:725px) {
+    #box {
+
+        .personal {
+            width: 500px;
+            height: 670px;
+            background-color: #f5ece7d9;
+            // position: absolute;
+            position: absolute;
+            // display: flex;
+            right: 10%;
+            top: 50%;
+            // transform: translate(-50%,-50%);
+            // margin: 4rem -5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h1 {
+                margin: 40px 0 20px 0;
+                text-align-last: center;
+                font-size: 48px;
+            }
+
+            .enter {
+                width: 250px;
+                height: 40px;
+                border: 2px solid rgb(138, 133, 133);
+                border-radius: 10px;
+                font-size: 25px;
+                margin-top: 20px;
+            }
+
+
+            .name_box {
+                width: 400px;
+                height: 140px;
+
+
+                label {
+                    font-size: 35px;
+                }
+
+                input {
+                    max-width: 500px;
+                    width: 400px;
+                    height: 50px;
+                    border: 2px solid rgb(138, 133, 133);
+                    border-radius: 10px;
+                    font-size: 25px;
+                    padding: 15px;
+                }
+            }
+
+            .phone_box {
+
+                width: 400px;
+                height: 140px;
+
+
+                label {
+                    font-size: 35px;
+                }
+
+                input {
+                    max-width: 500px;
+                    width: 400px;
+                    height: 50px;
+                    border: 2px solid rgb(138, 133, 133);
+                    border-radius: 10px;
+                    font-size: 25px;
+                    padding: 15px;
+                }
+            }
+
+            .day_box {
+
+                width: 400px;
+                height: 140px;
+
+
+                label {
+                    font-size: 35px;
+                }
+
+                input {
+                    max-width: 500px;
+                    width: 400px;
+                    height: 50px;
+                    border: 2px solid rgb(138, 133, 133);
+                    border-radius: 10px;
+                    font-size: 25px;
+                    padding: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:585px) {
+    #box {
+
+        .personal {
+            width: 400px;
+            height: 600px;
+            background-color: #f5ece7d9;
+            // position: absolute;
+            position: absolute;
+            // display: flex;
+            right: 5%;
+            top: 50%;
+            // transform: translate(-50%,-50%);
+            // margin: 4rem -5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h1 {
+                margin: 20px 0 20px 0;
+                text-align-last: center;
+                font-size: 48px;
+            }
+
+            .enter {
+                width: 250px;
+                height: 40px;
+                border: 2px solid rgb(138, 133, 133);
+                border-radius: 10px;
+                font-size: 25px;
+                margin-top: 20px;
+            }
+
+
+            .name_box {
+                width: 400px;
+                height: 140px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                label {
+                    font-size: 35px;
+                }
+
+                input {
+                    max-width: 500px;
+                    width: 400px;
+                    height: 50px;
+                    border: 2px solid rgb(138, 133, 133);
+                    border-radius: 10px;
+                    font-size: 25px;
+                    padding: 15px;
+                }
+                .number{
+                    width: 350px;
+                    margin: 0 auto;
+                }
+            }
+
+            .phone_box {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 400px;
+                height: 140px;
+
+                .phone{
+                    width: 350px;
+                }
+                label {
+                    font-size: 35px;
+                }
+
+                input {
+                    max-width: 500px;
+                    width: 400px;
+                    height: 50px;
+                    border: 2px solid rgb(138, 133, 133);
+                    border-radius: 10px;
+                    font-size: 25px;
+                    padding: 15px;
+                }
+            }
+
+            .day_box {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 400px;
+                height: 140px;
+                #birthdaytime{
+                    width: 350px;
+                }
+
+                label {
+                    font-size: 35px;
+                }
+
+                input {
+                    max-width: 500px;
+                    width: 400px;
+                    height: 50px;
+                    border: 2px solid rgb(138, 133, 133);
+                    border-radius: 10px;
+                    font-size: 25px;
+                    padding: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:420px) {
+    #box {
+
+        .personal {
+            width: 320px;
+            height: 550px;
+            background-color: #f5ece7d9;
+            // position: absolute;
+            position: absolute;
+            // display: flex;
+            right: 5%;
+            top: 50%;
+            // transform: translate(-50%,-50%);
+            // margin: 4rem -5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h1 {
+                margin: 20px 0 20px 0;
+                text-align-last: center;
+                font-size: 38px;
+            }
+
+            .enter {
+                width: 150px;
+                height: 40px;
+                border: 2px solid rgb(138, 133, 133);
+                border-radius: 10px;
+                font-size: 25px;
+                margin-top: 20px;
+            }
+
+
+            .name_box {
+                width: 400px;
+                height: 120px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                label {
+                    font-size: 25px;
+                }
+
+                input {
+                    max-width: 500px;
+                    width: 400px;
+                    height: 50px;
+                    border: 2px solid rgb(138, 133, 133);
+                    border-radius: 10px;
+                    font-size: 25px;
+                    padding: 15px;
+                }
+                .number{
+                    width: 250px;
+                    // margin: 0 auto;
+                }
+            }
+
+            .phone_box {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 400px;
+                height: 120px;
+
+
+                label {
+                    font-size: 25px;
+                }
+
+                input {
+                    max-width: 500px;
+                    width: 400px;
+                    height: 50px;
+                    border: 2px solid rgb(138, 133, 133);
+                    border-radius: 10px;
+                    font-size: 25px;
+                    padding: 15px;
+                }
+                .phone{
+                    width: 250px;
+                }
+            }
+
+            .day_box {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 400px;
+                height: 120px;
+
+
+                label {
+                    font-size: 25px;
+                    
+                }
+
+                input {
+                    max-width: 500px;
+                    width: 400px;
+                    height: 50px;
+                    border: 2px solid rgb(138, 133, 133);
+                    border-radius: 10px;
+                    font-size: 25px;
+                    padding: 15px;
+                }
+                #birthdaytime{
+                    width: 250px;
+                }
+            }
+        }
+    }
+}

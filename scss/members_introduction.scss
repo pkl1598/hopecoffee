@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+
+}
+
+p {
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #F6EDDF;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+// nav
+nav {
+    z-index: 10000;
+    width: 100%;
+    height: 80px;
+    background-color: #F6EDDF;
+    position: fixed;
+
+    .container {
+        width: 1280px;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 15px;
+
+        .menu_bar {
+            display: none;
+
+        }
+
+        a {
+            height: 80px;
+
+            .logo {
+                height: 80px;
+                padding: 15px 0;
+            }
+        }
+
+        .menu_main {
+            height: 100%;
+
+            ul {
+                display: flex;
+
+                a {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    text-decoration: none;
+
+                    li {
+                        margin: 0 15px;
+                        color: #000;
+                    }
+                }
+
+
+            }
+        }
+    }
+
+    .back_top {
+        width: 80px;
+        height: 80px;
+        background-image: url(../picture/information-picture/回到最上面.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+        margin-top: 675px;
+        margin-left: 1785px;
+    }
+}
+
+main {
+    #banner {
+
+        height: 100vh;
+
+        .swiper {
+            width: 100%;
+            height: 100%;
+
+            .swiper-slide {
+                background-position: center;
+                background-size: cover;
+
+                img {
+                    display: block;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    #members_introduction_1 {
+        .container {
+            .dog_card {
+                display: flex;
+                padding-top: 171px;
+
+                .member_picture {
+                    width: 100%;
+                    margin-right: 110px;
+                }
+
+                .member_introduction_word {
+                    .member_introduction_title {
+                        font-size: 32px;
+                        letter-spacing: 5px;
+
+                    }
+
+                    .member_introduction_main {
+                        font-size: 20px;
+                        letter-spacing: 3px;
+                    }
+                }
+
+            }
+
+            .decorate {
+                display: flex;
+                margin: 59px 0;
+                justify-content: center;
+                position: relative;
+                // .decorate1{
+
+                // }
+                .decorate2{
+                    position: absolute;
+                    right: 0px;
+                }
+
+            }
+        }
+
+    }
+
+
+
+}
+
+footer {
+    .Copyright {
+        color: #7B7673;
+        text-align: center;
+        letter-spacing: 5px;
+        padding: 0 20px 33px 0;
+        font-size: 14px;
+    }
+
+}
