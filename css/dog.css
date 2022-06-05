@@ -758,7 +758,7 @@ main #menu .menu_right .menu_text .modal .modal-content .prev {
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: white;
+  color: black;
   font-weight: bold;
   font-size: 20px;
   -webkit-transition: 0.6s ease;
@@ -772,6 +772,7 @@ main #menu .menu_right .menu_text .modal .modal-content .prev {
 
 main #menu .menu_right .menu_text .modal .modal-content .prev:hover {
   background-color: rgba(0, 0, 0, 0.8);
+  color: white;
 }
 
 main #menu .menu_right .menu_text .modal .modal-content .next {
@@ -781,7 +782,7 @@ main #menu .menu_right .menu_text .modal .modal-content .next {
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: white;
+  color: black;
   font-weight: bold;
   font-size: 20px;
   -webkit-transition: 0.6s ease;
@@ -797,6 +798,7 @@ main #menu .menu_right .menu_text .modal .modal-content .next {
 
 main #menu .menu_right .menu_text .modal .modal-content .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
+  color: white;
 }
 
 main #menu .menu_right .menu_text .modal .modal-content .caption-container {

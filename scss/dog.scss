@@ -807,7 +807,7 @@ main {
                             width: auto;
                             padding: 16px;
                             margin-top: -50px;
-                            color: white;
+                            color: black;
                             font-weight: bold;
                             font-size: 20px;
                             transition: 0.6s ease;
@@ -817,6 +817,7 @@ main {
 
                             &:hover {
                                 background-color: rgba(0, 0, 0, 0.8);
+                                color: white;
                             }
                         }
 
@@ -827,7 +828,7 @@ main {
                             width: auto;
                             padding: 16px;
                             margin-top: -50px;
-                            color: white;
+                            color: black;
                             font-weight: bold;
                             font-size: 20px;
                             transition: 0.6s ease;
@@ -841,6 +842,7 @@ main {
 
                             &:hover {
                                 background-color: rgba(0, 0, 0, 0.8);
+                                color: white;
                             }
                         }
 
